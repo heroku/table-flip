@@ -10,7 +10,7 @@ you're using [Sequel](http://sequel.jeremyevans.net/) as your ORM.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "table_flip"
+gem "table-flip"
 ```
 
 And then execute:
@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ```ruby
 # spec/spec_helper.rb
-require "table-flip"
+require "table_flip"
 
 RSpec.configure do |config|
   # ...
