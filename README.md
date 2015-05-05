@@ -10,7 +10,7 @@ you're using [Sequel](http://sequel.jeremyevans.net/) as your ORM.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "table-flip"
+gem "table_flip"
 ```
 
 And then execute:
