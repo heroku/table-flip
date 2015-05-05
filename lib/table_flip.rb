@@ -37,7 +37,7 @@ class TableFlip
   end
 
   def non_empty_tables
-    @non_empty_tables ||= tables.select { |table| @db[table].count > 0 }
+    @non_empty_tables ||= tables.select { |table| @db[table].limit(1).any? }
   end
 
   def tables
