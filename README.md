@@ -1,7 +1,7 @@
 # ❨╯°□°❩╯︵┻━┻
 
 You know when you accidentally do a stupid thing like running tests against a
-database with data in it and you loose the data because your test suite cleans
+database with data in it and you lose the data because your test suite cleans
 the database before running? Table flip lets you safeguard against that if
 you're using [Sequel](http://sequel.jeremyevans.net/) as your ORM.
 
